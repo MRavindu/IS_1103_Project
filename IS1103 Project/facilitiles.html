@@ -113,7 +113,19 @@ s
 	<center>Copyright &copy 2014 All Rights Reserved: WisdomAcademy.com</center><br>
 	<br><br><br><br><br><br>
 
-	
+	<script>
+  window.watsonAssistantChatOptions = {
+      integrationID: "d7712cc5-5d98-49fe-8afb-7212de37317e", 
+      region: "eu-gb", 
+      serviceInstanceID: "5faf4406-34c7-4885-b2bf-9e3eda97bf00", 
+      onLoad: function(instance) { instance.render(); }
+    };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
+    document.head.appendChild(t);
+  });
+</script>
 	
 	
 	
